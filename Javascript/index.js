@@ -73,7 +73,7 @@ function voteCandidate(id) {
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({ votes: updatedVotes })
+        body: JSON.stringify({ votes: updatedVotes })//Showing real-time vote updates
       });
     })
     .then(() => {
