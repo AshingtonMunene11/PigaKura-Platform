@@ -13,7 +13,7 @@ const partyForm = document.getElementById('party-form');
 const partySelect = document.querySelector('.partySelect');
 const candidateSection = document.getElementById('candidate-section');
 
-// Submit party button
+// Submit party button of candidates
 partyForm.addEventListener('submit', function (e) {
   e.preventDefault();
 
