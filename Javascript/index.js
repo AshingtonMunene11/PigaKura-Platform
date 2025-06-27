@@ -61,7 +61,7 @@ function renderCandidate(candidate) {
   `;
 }
 
-// Handle vote action
+// Handle vote for candidates
 function voteCandidate(id) {
   fetch(`${BASE_URL}/${id}`)
     .then(response => response.json())
