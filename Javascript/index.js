@@ -93,11 +93,11 @@ function voteCandidate(id) {
 }
 
 // Delete candidate
-window.deleteCandidate = function (id) {
+window.deleteCandidate = function (id) {//only paty selected will be deleted
   const confirmDelete = confirm("Are you sure you want to hide this candidate?");
   if (!confirmDelete) return;
 
-  fetch(`${BASE_URL}/${id}`, {//only paty selected will be deleted
+  fetch(`${BASE_URL}/${id}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ isDeleted: true })//used soft delete so that i cannot lose info on my dbjson, the commented code below is for hard delete
