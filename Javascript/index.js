@@ -100,7 +100,7 @@ window.deleteCandidate = function (id) {
   fetch(`${BASE_URL}/${id}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ isDeleted: true })
+    body: JSON.stringify({ isDeleted: true })//used soft delete so that i cannot lose info on my dbjson, the commented code below is for hard delete
   })
     .then(() => {
       document.getElementById(`candidate-${id}`)?.remove();
