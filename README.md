@@ -51,7 +51,7 @@ pgsql
 └── README.md
 
 🙋🏽‍♂️ Author
-Ashington Munene 
+&copy; 2025 Ashington Munene 
 
 ## 📄 License
 
