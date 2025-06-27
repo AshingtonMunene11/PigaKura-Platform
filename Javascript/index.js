@@ -88,7 +88,7 @@ function voteCandidate(id) {
     })
     .catch(error => {
       console.error("Error during voting:", error);
-      alert("❌ Failed to submit your vote. Please try again.");
+      alert("❌ Failed to submit your vote. Please try again.");//Alerts Voter if failed voting
     });
 }
 
