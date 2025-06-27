@@ -1,6 +1,6 @@
 const BASE_URL = "http://localhost:3000/candidates";
 
-// Dark mode
+// Dark mode button
 const themeToggle = document.getElementById("toggle-theme");
 
 themeToggle.addEventListener("click", () => {

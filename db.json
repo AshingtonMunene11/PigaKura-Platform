@@ -6,7 +6,7 @@
       "name": "Kasondo Yayhe",
       "runningMate": "Ndoma Sindoma",
       "partySymbol": "https://www.pinterest.com/pin/155303888259602813/",
-      "votes": 8
+      "votes": 9
     },
     {
       "id": "2",
@@ -14,7 +14,8 @@
       "name": "Kendrick Mulamwa",
       "runningMate": "Harry Mastingo",
       "partySymbol": "https://www.pinterest.com/pin/351491945922142404/",
-      "votes": 10
+      "votes": 11,
+      "isDeleted": true
     },
     {
       "id": "3",
