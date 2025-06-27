@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PigaKura Platform</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="top">
+      <div class=" banner">
+        <header>
+          <h1>PigaKura Platform</h1>
+        </header>
+      </div>
+      <div>
+        <button id="toggle-theme"> Switch Theme</button>
+      </div>
+    </div>
+    <main class="main-content">
+      <div class="display-info">
+        <section class="hero">
+                <h2>Explore the 2027 Presidential Candidates</h2>
+                <p>Vote for your preferred candidate.</p>
+                <button class="hero-button learn">
+                    <i class="fas fa-graduation-cap"></i> Learn About Your Party
+                </button>
+                <form id="party-form">
+                    <select class="partySelect" name="party" required>
+                    <option value="" disabled selected hidden>Choose Your Party</option>
+                    <option value="wakadidido">Wakadidido Alliance</option>
+                    <option value="miwa">Miwa Party</option>
+                    <option value="uji">Uji Coalition</option>
+                    <option value="avocado">Avocado Chama</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+         </section>
+        <section class="voter-info">
+          <h3>Bethlehem Polling Station</h3>
+          <ul>
+            <li>🗓️ Election Day: Nov 11, 2027</li>
+            <li>🕖 Polls Open: 7:00AM – 6:00PM</li>
+            <li>🆔 ID verification required for Voters</li>
+          </ul>
+        </section>
+      </div>
+      <section class="candidates" id="candidate-section">
+        <h3>Meet the Candidates</h3>
+      </section>
+    </main>
+    <script src="./Javascript/index.js"></script>
+  </body>
+</html>

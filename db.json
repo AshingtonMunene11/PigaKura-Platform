@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "id": "1",
+      "party": "wakadidido",
+      "name": "Kasondo Yayhe",
+      "runningMate": "Ndoma Sindoma",
+      "partySymbol": "https://www.pinterest.com/pin/155303888259602813/",
+      "votes": 8
+    },
+    {
+      "id": "2",
+      "party": "miwa",
+      "name": "Kendrick Mulamwa",
+      "runningMate": "Harry Mastingo",
+      "partySymbol": "https://www.pinterest.com/pin/351491945922142404/",
+      "votes": 10
+    },
+    {
+      "id": "3",
+      "party": "uji",
+      "name": "Christiano Lukaka",
+      "runningMate": "Lionard Messinwithyou",
+      "partySymbol": "images/parties/uji-logo.png",
+      "votes": 6
+    },
+    {
+      "id": "4",
+      "party": "avocado",
+      "name": "Liam Nissan",
+      "runningMate": "Taken Fourgranted",
+      "partySymbol": "https://www.pinterest.com/pin/492649953693371/",
+      "votes": 4
+    }
+  ]
+}
