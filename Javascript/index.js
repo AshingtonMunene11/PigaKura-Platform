@@ -97,7 +97,7 @@ window.deleteCandidate = function (id) {
   const confirmDelete = confirm("Are you sure you want to hide this candidate?");
   if (!confirmDelete) return;
 
-  fetch(`${BASE_URL}/${id}`, {
+  fetch(`${BASE_URL}/${id}`, {//only paty selected will be deleted
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ isDeleted: true })//used soft delete so that i cannot lose info on my dbjson, the commented code below is for hard delete
