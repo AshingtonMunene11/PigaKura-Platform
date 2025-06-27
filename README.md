@@ -37,7 +37,7 @@ https://json-server-8jjt.onrender.com/
 ```bash
 npm install -g json-server
 json-server --watch db.json
-Open index.html in your browser to use the app.
+Open index.html in your browser to use the SPA.
 ```
 📂 Project Structure
 pgsql
