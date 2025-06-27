@@ -1,6 +1,6 @@
 # 🗳️PigaKura-Platform
 
-This is a single-page application (SPA) that allows a user to vote for their preferred Aspirants. Built using **HTML**, **CSS**, and **JavaScript**, the app connects to a local JSON server to fetch, vote, delete, and nominate candidates.
+This is a single-page application (SPA) that allows users to vote for their preferred aspirants. Built using **HTML**, **CSS**, and **JavaScript**, the app connects to a local JSON server to fetch, vote, delete, and nominate candidates.
 
 ---
 
