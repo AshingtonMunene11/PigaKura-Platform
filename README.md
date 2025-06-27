@@ -25,6 +25,7 @@ https://json-server-8jjt.onrender.com/
 - JavaScript (ES6)
 - [JSON Server] for mock API
 
+
 ---
 
 ## 📦 Getting Started
