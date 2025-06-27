@@ -1,5 +1,4 @@
-# PigaKura-Platform
-# 🗳️ Voting Platform
+# 🗳️PigaKura-Platform
 
 This is a single-page application (SPA) that allows students to vote for their preferred Aspirants. Built using **HTML**, **CSS**, and **JavaScript**, the app connects to a local JSON server to fetch, vote, delete, and nominate candidates.
 
@@ -18,6 +17,7 @@ This is a single-page application (SPA) that allows students to vote for their p
 ## 📸 Preview
 ![image](https://github.com/user-attachments/assets/66115601-2446-4341-b01b-8e528f7a5727)
 
+https://json-server-8jjt.onrender.com/
 
 ## 🛠️ Technologies Used
 
