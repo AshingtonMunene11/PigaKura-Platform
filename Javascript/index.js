@@ -44,7 +44,7 @@ function fetchCandidateByParty(party) {
     });
 }
 
-// Render candidate info on the page
+// Render candidate on the page
 function renderCandidate(candidate) {
   candidateSection.innerHTML = `
     <h3>Meet the Candidates</h3>
