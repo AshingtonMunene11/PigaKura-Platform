@@ -1,3 +1,4 @@
+//base url
 const BASE_URL = "http://localhost:3000/candidates";
 
 // Dark mode button
