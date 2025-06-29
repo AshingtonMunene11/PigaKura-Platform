@@ -1,5 +1,6 @@
 //base url
-const BASE_URL = "http://localhost:3000/candidates";
+// const BASE_URL = "http://localhost:3000/candidates"; this has been replaced to the render web service below
+const BASE_URL = "https://json-server-8jjt.onrender.com/candidates";
 
 // Dark mode button
 const themeToggle = document.getElementById("toggle-theme");
