@@ -17,7 +17,12 @@ This is a single-page application (SPA) that allows users to vote for their pref
 ## 📸 Preview
 ![image](https://github.com/user-attachments/assets/66115601-2446-4341-b01b-8e528f7a5727)
 
-https://json-server-8jjt.onrender.com/
+ ## 📡 API
+
+This SPA fetches candidate data from a live JSON Server hosted on Render.
+
+- 🔗 [Live API Endpoint for Candidates](https://json-server-8jjt.onrender.com/candidates)
+
 
 ## 🛠️ Technologies Used
 
