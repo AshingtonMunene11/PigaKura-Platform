@@ -33,7 +33,7 @@ This SPA fetches candidate data from a live JSON Server hosted on Render.
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
