@@ -1,10 +1,10 @@
-# 🗳️PigaKura-Platform
+# PigaKura-Platform
 
 This is a single-page application (SPA) that allows users to vote for their preferred aspirants. Built using **HTML**, **CSS**, and **JavaScript**, the app connects to a local JSON server to fetch, vote, delete, and nominate candidates.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Toggle between dark and light mode
 - Filter candidates by selected political party
@@ -24,7 +24,7 @@ This SPA fetches candidate data from a live JSON Server hosted on Render.
 - 🔗 [Live API Endpoint for Candidates](https://json-server-8jjt.onrender.com/candidates)
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5 + CSS3
 - JavaScript (ES6)
@@ -45,7 +45,7 @@ npm install -g json-server
 json-server --watch db.json
 explorer.exe index.html (in your terminal dir to use the SPA).
 ```
-📂 Project Structure
+Project Structure
 pgsql
 .
 ├── index.html
@@ -56,7 +56,7 @@ pgsql
 ├── db.json
 └── README.md
 
-🙋🏽‍♂️ Author
+ Author
 &copy; 2025 Ashington Munene 
 
 ## 📄 License
